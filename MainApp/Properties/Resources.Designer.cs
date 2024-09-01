@@ -73,6 +73,26 @@ namespace MainApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1644910377_6_fikiwiki_com_p_pandi_krasivie_kartinki_6 {
+            get {
+                object obj = ResourceManager.GetObject("1644910377_6-fikiwiki-com-p-pandi-krasivie-kartinki-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1644910377_6_fikiwiki_com_p_pandi_krasivie_kartinki_61 {
+            get {
+                object obj = ResourceManager.GetObject("1644910377_6-fikiwiki-com-p-pandi-krasivie-kartinki-61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wallpaperflare_com_wallpaper {
             get {
                 object obj = ResourceManager.GetObject("wallpaperflare.com_wallpaper", resourceCulture);
@@ -86,6 +106,16 @@ namespace MainApp.Properties {
         internal static System.Drawing.Bitmap Снимок_экрана_2024_02_06_154050 {
             get {
                 object obj = ResourceManager.GetObject("Снимок экрана 2024-02-06 154050", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_02_08_201826 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-02-08 201826", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

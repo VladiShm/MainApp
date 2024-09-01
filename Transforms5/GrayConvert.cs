@@ -7,14 +7,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Transforms
+namespace Transforms5
 {
     [Version(1, 0)]
     internal class GrayConvert : IPlugin
     {
         public string GetVersion()
         {
-            Type type = typeof(MedianFiltr);
+            Type type = typeof(GrayConvert);
             VersionAttribute version = (VersionAttribute)Attribute.GetCustomAttribute(type, typeof(VersionAttribute));
             return ("Версия: " + version.Major + "." + version.Minor);
         }

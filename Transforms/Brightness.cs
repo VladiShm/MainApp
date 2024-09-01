@@ -29,7 +29,7 @@ namespace Transforms
 
         public string GetVersion()
         {
-            Type type = typeof(MedianFiltr);
+            Type type = typeof(Brightness);
             VersionAttribute version = (VersionAttribute)Attribute.GetCustomAttribute(type, typeof(VersionAttribute));
             return ("Версия: " + version.Major + "." + version.Minor);
         }

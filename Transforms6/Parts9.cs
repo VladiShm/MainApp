@@ -6,14 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Transforms
+namespace Transforms6
 {
     [Version(6, 0)]
     internal class Parts9 : IPlugin
     {
         public string GetVersion()
         {
-            Type type = typeof(MedianFiltr);
+            Type type = typeof(Parts9);
             VersionAttribute version = (VersionAttribute)Attribute.GetCustomAttribute(type, typeof(VersionAttribute));
             return ("Версия: " + version.Major + "." + version.Minor);
         }

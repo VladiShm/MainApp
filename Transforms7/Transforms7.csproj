@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92F0C236-96DF-402D-8B3B-50467A2BDD12}</ProjectGuid>
+    <ProjectGuid>{DA49E452-4713-4504-9235-61C7B9AF8ECE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Transforms</RootNamespace>
-    <AssemblyName>Transforms</AssemblyName>
+    <RootNamespace>Transforms7</RootNamespace>
+    <AssemblyName>Transforms7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Brightness.cs" />
+    <Compile Include="Razmitie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

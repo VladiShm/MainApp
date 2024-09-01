@@ -7,14 +7,14 @@ using System.Text;
 using System.Threading.Tasks;
 using PluginInterface;
 
-namespace Transforms
+namespace Transforms4
 {
     [Version(5, 0)]
     internal class Date : IPlugin
     {
         public string GetVersion()
         {
-            Type type = typeof(MedianFiltr);
+            Type type = typeof(Date);
             VersionAttribute version = (VersionAttribute)Attribute.GetCustomAttribute(type, typeof(VersionAttribute));
             return ("Версия: " + version.Major + "." + version.Minor);
         }
